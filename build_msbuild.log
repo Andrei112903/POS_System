@@ -1,0 +1,32 @@
+﻿MSBuild version 17.14.23+b0019275e for .NET Framework
+Build started 07/12/2025 11:38:55 am.
+
+Project "C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" on node 1 (Build target(s)).
+GenerateBindingRedirectsUpdateAppConfig:
+  Copying file from "C:\Users\johna\source\repos\POS_System\POS_System\App.config" to "C:\Users\johna\source\repos\POS_System\POS_System\obj\Debug\POS_System.exe.config".
+  Touching "obj\Debug\POS_System.exe.config".
+CoreResGen:
+  Processing resource file "Form1.resx" into "obj\Debug\POS_System.Form1.resources".
+  Processing resource file "Low_Stock_Value_Reminder.resx" into "obj\Debug\POS_System.Low_Stock_Value_Reminder.resources".
+  Processing resource file "Properties\Resources.resx" into "obj\Debug\POS_System.Properties.Resources.resources".
+  Processing resource file "PurchasingSummary.resx" into "obj\Debug\POS_System.PurchasingSummary.resources".
+  Processing resource file "stock.resx" into "obj\Debug\POS_System.stock.resources".
+  Processing resource file "StockView.resx" into "obj\Debug\POS_System.StockView.resources".
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB3822: Non-string resources require the System.Resources.Extensions assembly at runtime, but it was not found in this project's references. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+  Output file "C:\Users\johna\source\repos\POS_System\POS_System\obj\Debug\POS_System.StockView.resources" is possibly corrupt and will be deleted and recreated.
+  Processing resource file "Work_Station.resx" into "obj\Debug\POS_System.Work_Station.resources".
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB3822: Non-string resources require the System.Resources.Extensions assembly at runtime, but it was not found in this project's references. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+  Output file "C:\Users\johna\source\repos\POS_System\POS_System\obj\Debug\POS_System.Work_Station.resources" is possibly corrupt and will be deleted and recreated.
+Done Building Project "C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (Build target) (1) ->
+(CoreResGen target) -> 
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB3822: Non-string resources require the System.Resources.Extensions assembly at runtime, but it was not found in this project's references. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB3822: Non-string resources require the System.Resources.Extensions assembly at runtime, but it was not found in this project's references. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.63

@@ -1,0 +1,13 @@
+﻿  Determining projects to restore...
+  Nothing to do. None of the projects specified contain packages to restore.
+C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB4216: Could not run the "GenerateResource" task because MSBuild could not create or connect to a task host with runtime "NET" and architecture "x86".  Please ensure that (1) the requested runtime and/or architecture are available on the machine, and (2) that the required executable "C:\Program Files\dotnet\sdk\9.0.306\MSBuild.dll" exists and can be run. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3479,7): error MSB4028: The "GenerateResource" task's outputs could not be retrieved from the "FilesWritten" parameter. Object type Microsoft.Build.Tasks.GenerateResource does not match target type Microsoft.Build.BackEnd.TaskHostTask. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+
+Build FAILED.
+
+C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB4216: Could not run the "GenerateResource" task because MSBuild could not create or connect to a task host with runtime "NET" and architecture "x86".  Please ensure that (1) the requested runtime and/or architecture are available on the machine, and (2) that the required executable "C:\Program Files\dotnet\sdk\9.0.306\MSBuild.dll" exists and can be run. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3479,7): error MSB4028: The "GenerateResource" task's outputs could not be retrieved from the "FilesWritten" parameter. Object type Microsoft.Build.Tasks.GenerateResource does not match target type Microsoft.Build.BackEnd.TaskHostTask. [C:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:09.04
