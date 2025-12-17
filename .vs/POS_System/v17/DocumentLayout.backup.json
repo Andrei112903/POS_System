@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\johna\\source\\repos\\POS_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|c:\\users\\johna\\source\\repos\\pos_system\\pos_system\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|c:\\users\\johna\\source\\repos\\pos_system\\pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\purchasingsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -23,12 +27,20 @@
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\stockview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stockview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\pos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\stockview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stockview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\purchasingsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,40 +118,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "stock.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs",
-              "RelativeDocumentMoniker": "POS_System\\stock.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs [Design]",
-              "RelativeToolTip": "POS_System\\stock.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Accounts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Accounts.cs",
+              "RelativeDocumentMoniker": "POS_System\\Accounts.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Accounts.cs [Design]",
+              "RelativeToolTip": "POS_System\\Accounts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:12:48.89Z",
+              "WhenOpened": "2025-12-07T09:38:49.461Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "stock.cs",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs",
-              "RelativeDocumentMoniker": "POS_System\\stock.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs",
-              "RelativeToolTip": "POS_System\\stock.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowPMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:57:30.672Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Work_Station.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
-              "RelativeDocumentMoniker": "POS_System\\Work_Station.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs [Design]",
-              "RelativeToolTip": "POS_System\\Work_Station.cs [Design]",
+              "Title": "Supplier.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Supplier.cs",
+              "RelativeDocumentMoniker": "POS_System\\Supplier.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Supplier.cs [Design]*",
+              "RelativeToolTip": "POS_System\\Supplier.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:43:06.809Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-07T09:00:30.891Z"
             },
             {
               "$type": "Document",
@@ -158,20 +152,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Work_Station.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
               "RelativeDocumentMoniker": "POS_System\\Work_Station.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
-              "RelativeToolTip": "POS_System\\Work_Station.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGUAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs*",
+              "RelativeToolTip": "POS_System\\Work_Station.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAowGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T14:48:07.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T14:48:07.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PurchasingSummary.cs [Design]",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\PurchasingSummary.cs",
               "RelativeDocumentMoniker": "POS_System\\PurchasingSummary.cs",
@@ -182,7 +175,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "stock.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs",
+              "RelativeDocumentMoniker": "POS_System\\stock.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs [Design]",
+              "RelativeToolTip": "POS_System\\stock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:12:48.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Work_Station.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
+              "RelativeDocumentMoniker": "POS_System\\Work_Station.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs [Design]*",
+              "RelativeToolTip": "POS_System\\Work_Station.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:43:06.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StockView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\StockView.cs",
+              "RelativeDocumentMoniker": "POS_System\\StockView.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\StockView.cs [Design]",
+              "RelativeToolTip": "POS_System\\StockView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T05:07:21.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "stock.cs",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs",
+              "RelativeDocumentMoniker": "POS_System\\stock.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs",
+              "RelativeToolTip": "POS_System\\stock.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAowAcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:57:30.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Admin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Admin.cs",
               "RelativeDocumentMoniker": "POS_System\\Admin.cs",
@@ -193,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "POS.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\POS.cs",
               "RelativeDocumentMoniker": "POS_System\\POS.cs",
@@ -205,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Admin.cs",
               "RelativeDocumentMoniker": "POS_System\\Admin.cs",
@@ -217,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "receipt.cs [Design]",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\receipt.cs",
               "RelativeDocumentMoniker": "POS_System\\receipt.cs",
@@ -228,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "receipt.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\receipt.cs",
               "RelativeDocumentMoniker": "POS_System\\receipt.cs",
@@ -240,18 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StockView.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\StockView.cs",
-              "RelativeDocumentMoniker": "POS_System\\StockView.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\StockView.cs [Design]",
-              "RelativeToolTip": "POS_System\\StockView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:07:21.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Low_Stock_Value_Reminder.cs [Design]",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Low_Stock_Value_Reminder.cs",
               "RelativeDocumentMoniker": "POS_System\\Low_Stock_Value_Reminder.cs",
@@ -262,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PurchasingSummary.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\PurchasingSummary.cs",
               "RelativeDocumentMoniker": "POS_System\\PurchasingSummary.cs",
@@ -274,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "PurchasingSummary.Designer.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\PurchasingSummary.Designer.cs",
               "RelativeDocumentMoniker": "POS_System\\PurchasingSummary.Designer.cs",
@@ -286,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "stock.Designer.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.Designer.cs",
               "RelativeDocumentMoniker": "POS_System\\stock.Designer.cs",
@@ -298,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Model\\Stock.cs",
               "RelativeDocumentMoniker": "POS_System\\Model\\Stock.cs",
@@ -310,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Stock_manager.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Model\\Stock_manager.cs",
               "RelativeDocumentMoniker": "POS_System\\Model\\Stock_manager.cs",
@@ -321,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Form1.cs",
               "RelativeDocumentMoniker": "POS_System\\Form1.cs",
@@ -332,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Form1.cs",
               "RelativeDocumentMoniker": "POS_System\\Form1.cs",

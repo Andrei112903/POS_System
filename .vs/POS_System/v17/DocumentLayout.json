@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\johna\\source\\repos\\POS_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|c:\\users\\johna\\source\\repos\\pos_system\\pos_system\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|c:\\users\\johna\\source\\repos\\pos_system\\pos_system\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\work_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|c:\\users\\johna\\source\\repos\\pos_system\\pos_system\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\purchasingsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -35,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stockview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|c:\\users\\johna\\source\\repos\\pos_system\\pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|C:\\Users\\johna\\source\\repos\\POS_System\\pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05D7637D-AE53-4B72-904B-D2DED47C4032}|POS_System\\POS_System.csproj|solutionrelative:pos_system\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,26 +118,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "accounts.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\accounts.cs",
-              "RelativeDocumentMoniker": "POS_System\\accounts.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\accounts.cs [Design]*",
-              "RelativeToolTip": "POS_System\\accounts.cs [Design]*",
+              "DocumentIndex": 2,
+              "Title": "Accounts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Accounts.cs",
+              "RelativeDocumentMoniker": "POS_System\\Accounts.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Accounts.cs [Design]",
+              "RelativeToolTip": "POS_System\\Accounts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T09:38:49.461Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Supplier.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Supplier.cs",
-              "RelativeDocumentMoniker": "POS_System\\Supplier.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Supplier.cs [Design]*",
-              "RelativeToolTip": "POS_System\\Supplier.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T09:00:30.891Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -149,18 +137,17 @@
               "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\POS.cs [Design]",
               "RelativeToolTip": "POS_System\\POS.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T03:54:41.732Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-07T03:54:41.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Work_Station.cs",
               "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
               "RelativeDocumentMoniker": "POS_System\\Work_Station.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs*",
-              "RelativeToolTip": "POS_System\\Work_Station.cs*",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAowGAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
+              "RelativeToolTip": "POS_System\\Work_Station.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T14:48:07.108Z",
               "EditorCaption": ""
@@ -174,8 +161,7 @@
               "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\PurchasingSummary.cs [Design]",
               "RelativeToolTip": "POS_System\\PurchasingSummary.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:15:35.294Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-04T05:15:35.294Z"
             },
             {
               "$type": "Document",
@@ -186,20 +172,30 @@
               "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\stock.cs [Design]",
               "RelativeToolTip": "POS_System\\stock.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:12:48.89Z",
+              "WhenOpened": "2025-12-06T10:12:48.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Work_Station.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
+              "RelativeDocumentMoniker": "POS_System\\Work_Station.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs [Design]",
+              "RelativeToolTip": "POS_System\\Work_Station.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:43:06.809Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Work_Station.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs",
-              "RelativeDocumentMoniker": "POS_System\\Work_Station.cs",
-              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Work_Station.cs [Design]*",
-              "RelativeToolTip": "POS_System\\Work_Station.cs [Design]*",
+              "DocumentIndex": 3,
+              "Title": "Supplier.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Supplier.cs",
+              "RelativeDocumentMoniker": "POS_System\\Supplier.cs",
+              "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\Supplier.cs [Design]*",
+              "RelativeToolTip": "POS_System\\Supplier.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T15:43:06.809Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-07T09:00:30.891Z"
             },
             {
               "$type": "Document",
@@ -210,8 +206,7 @@
               "ToolTip": "C:\\Users\\johna\\source\\repos\\POS_System\\POS_System\\StockView.cs [Design]",
               "RelativeToolTip": "POS_System\\StockView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:07:21.867Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-04T05:07:21.867Z"
             },
             {
               "$type": "Document",
@@ -223,8 +218,7 @@
               "RelativeToolTip": "POS_System\\stock.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAowAcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:57:30.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T03:57:30.672Z"
             },
             {
               "$type": "Document",
@@ -247,8 +241,7 @@
               "RelativeToolTip": "POS_System\\POS.cs",
               "ViewState": "AgIAAN0AAAAAAAAAAAA1wOwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T04:04:48.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T04:04:48.67Z"
             },
             {
               "$type": "Document",
@@ -306,8 +299,7 @@
               "RelativeToolTip": "POS_System\\PurchasingSummary.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T05:30:26.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T05:30:26.947Z"
             },
             {
               "$type": "Document",
@@ -319,8 +311,7 @@
               "RelativeToolTip": "POS_System\\PurchasingSummary.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T09:39:57.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T09:39:57.656Z"
             },
             {
               "$type": "Document",
