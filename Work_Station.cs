@@ -148,5 +148,12 @@ namespace POS_System
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Administrator administrator = new Administrator();
+            administrator.Show();
+        }
     }
 }

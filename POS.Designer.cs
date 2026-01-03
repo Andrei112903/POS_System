@@ -54,6 +54,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button15 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -76,6 +77,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(306, 34);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -277,6 +279,7 @@
             this.label5.Size = new System.Drawing.Size(149, 39);
             this.label5.TabIndex = 1;
             this.label5.Text = "php 00.0";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -296,9 +299,9 @@
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button13.Location = new System.Drawing.Point(515, 476);
+            this.button13.Location = new System.Drawing.Point(515, 436);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(109, 99);
+            this.button13.Size = new System.Drawing.Size(109, 69);
             this.button13.TabIndex = 10;
             this.button13.Text = "Void";
             this.button13.UseVisualStyleBackColor = false;
@@ -312,7 +315,7 @@
             this.button14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button14.Location = new System.Drawing.Point(515, 371);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(109, 99);
+            this.button14.Size = new System.Drawing.Size(109, 67);
             this.button14.TabIndex = 11;
             this.button14.Text = "Invoice";
             this.button14.UseVisualStyleBackColor = false;
@@ -331,11 +334,26 @@
             this.dataGridView1.TabIndex = 12;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // button15
+            // 
+            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button15.Location = new System.Drawing.Point(515, 507);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(109, 68);
+            this.button15.TabIndex = 13;
+            this.button15.Text = "Logout";
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // POS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1083, 587);
+            this.Controls.Add(this.button15);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
@@ -389,5 +407,6 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button15;
     }
 }

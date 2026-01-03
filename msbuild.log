@@ -1,0 +1,959 @@
+Build started 14/12/2025 12:57:13 pm.
+Logging verbosity is set to: Detailed.     0>Process = "C:\Program Files\dotnet\dotnet.exe"
+       MSBuild executable path = "C:\Program Files\dotnet\sdk\9.0.306\MSBuild.dll"
+       Command line arguments = "C:\Program Files\dotnet\sdk\9.0.306\MSBuild.dll -maxcpucount -verbosity:m -tlp:default=auto -nologo -restore -consoleloggerparameters:Summary c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj /fileLogger -distributedlogger:Microsoft.DotNet.Tools.MSBuild.MSBuildLogger,C:\Program Files\dotnet\sdk\9.0.306\dotnet.dll*Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingLogger,C:\Program Files\dotnet\sdk\9.0.306\dotnet.dll"
+       Current directory = "C:\Users\johna\source\repos\POS_System\POS_System"
+       MSBuild version = "17.14.28+09c1be848"
+       Based on the Windows registry key LongPathsEnabled, the LongPaths feature is disabled.
+       Based on the Windows registry key VerifiedAndReputablePolicyState, SAC state = 0: turned off.
+       c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj(3,92): message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\9.0.306\' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props(60,5): message : Property reassignment: $(MSBuildProjectExtensionsPath)="c:\Users\johna\source\repos\POS_System\POS_System\obj\" (previous value: "obj\") at C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props (60,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props(84,119): message : Property 'MSBuildUserExtensionsPath' with value 'C:\Users\johna\AppData\Local\Microsoft\MSBuild' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.CSharp.Core.targets(200,5): message : Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (previous value: "-langversion:7.3") at C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.CSharp.Core.targets (200,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.props(117,5): message : Property reassignment: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (previous value: "Any CPU,x86,x64") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.props (117,5)
+       Assembly loaded during Evaluation: Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Build.Utilities.Core.dll, MVID: e694cd1c-cab1-43ec-a25d-8ec3134e8f67, AssemblyLoadContext: Default)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(175,5): message : Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (175,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(185,5): message : Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (185,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(393,5): message : Property reassignment: $(MSBuildCopyMarkerName)="POS_System.csproj.Up2Date" (previous value: "POS_System.csproj") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (393,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(527,5): message : Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "AnyCPU") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (527,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(580,5): message : Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (580,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(649,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (649,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(650,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles};") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (650,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(651,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (651,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(652,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (652,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(653,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (653,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(654,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (654,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(655,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (655,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(656,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (656,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(657,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\Debug\" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (657,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(2619,5): message : Property 'LOCALAPPDATA' with value 'C:\Users\johna\AppData\Local' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3947,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (3947,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3948,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (3948,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message : Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :       _SplitProjectReferencesByFileExistence
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :     " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (5159,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(6954,5): message : Property 'MSBuildExtensionsPath32' with value 'C:\Program Files\dotnet\sdk\9.0.306' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message : Property reassignment: $(ResolveReferencesDependsOn)="
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ImplicitlyExpandDesignTimeFacades
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     " (previous value: "
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+       Assembly loaded during Evaluation: System.Threading.Tasks.Parallel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.10\System.Threading.Tasks.Parallel.dll, MVID: daaa8f0a-427d-4a4f-8c46-441818161724, AssemblyLoadContext: Default)
+       Overriding target "GetFrameworkPaths" in project "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets".
+       The target "ResolveNuGetPackageAssets" listed in an AfterTargets attribute at "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets (27,11)" does not exist in the project, and will be ignored.
+     1>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" on node 1 (Restore target(s)).
+     1>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+     1>Target "_LoadRestoreGraphEntryPoints" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_FilterRestoreGraphProjectInputItems" depends on it):
+       Task "GetRestoreSolutionProjectsTask" skipped, due to false condition; ( $(MSBuildProjectFullPath.EndsWith('.metaproj')) == 'true' AND @(RestoreGraphProjectInputItems) == '' ) was evaluated as ( False == 'true' AND c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj == '' ).
+     1>Done building target "_LoadRestoreGraphEntryPoints" in project "POS_System.csproj".
+     1>Target "_FilterRestoreGraphProjectInputItems" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreGraph" depends on it):
+       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+     0>c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj(3,92): message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\9.0.306\' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props(60,5): message : Property reassignment: $(MSBuildProjectExtensionsPath)="c:\Users\johna\source\repos\POS_System\POS_System\obj\" (previous value: "obj\") at C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props (60,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props(84,119): message : Property 'MSBuildUserExtensionsPath' with value 'C:\Users\johna\AppData\Local\Microsoft\MSBuild' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.CSharp.Core.targets(200,5): message : Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (previous value: "-langversion:7.3") at C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.CSharp.Core.targets (200,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.props(117,5): message : Property reassignment: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (previous value: "Any CPU,x86,x64") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.props (117,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(175,5): message : Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (175,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(185,5): message : Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (185,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(393,5): message : Property reassignment: $(MSBuildCopyMarkerName)="POS_System.csproj.Up2Date" (previous value: "POS_System.csproj") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (393,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(527,5): message : Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "AnyCPU") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (527,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(580,5): message : Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (580,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(649,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (649,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(650,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles};") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (650,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(651,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (651,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(652,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (652,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(653,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (653,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(654,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (654,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(655,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (655,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(656,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (656,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(657,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\Debug\" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (657,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(2619,5): message : Property 'LOCALAPPDATA' with value 'C:\Users\johna\AppData\Local' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3947,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (3947,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3948,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (3948,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message : Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :       _SplitProjectReferencesByFileExistence
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :     " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (5159,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(6954,5): message : Property 'MSBuildExtensionsPath32' with value 'C:\Program Files\dotnet\sdk\9.0.306' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message : Property reassignment: $(ResolveReferencesDependsOn)="
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ImplicitlyExpandDesignTimeFacades
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     " (previous value: "
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+       Overriding target "GetFrameworkPaths" in project "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets".
+       The target "ResolveNuGetPackageAssets" listed in an AfterTargets attribute at "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets (27,11)" does not exist in the project, and will be ignored.
+     1>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1) is building "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1:2) on node 1 (_IsProjectRestoreSupported target(s)).
+   1:2>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+   1:2>Target "_IsProjectRestoreSupported" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (entry point):
+   1:2>Done building target "_IsProjectRestoreSupported" in project "POS_System.csproj".
+   1:2>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (_IsProjectRestoreSupported target(s)).
+     1>Done executing task "MSBuild".
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreUseSkipNonexistentTargets)' != 'true' ) was evaluated as ( 'true' != 'true' ).
+       Assembly loaded during TaskRun: NuGet.Build.Tasks, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll, MVID: c545d64d-0cbb-4fc0-971c-b5c1c1e75cf3, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+       Assembly loaded during TaskRun: System.Reflection.Metadata, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.10\System.Reflection.Metadata.dll, MVID: edaaddef-d372-4857-8a44-0957aa1be526, AssemblyLoadContext: Default)
+       Assembly loaded during TaskRun: NuGet.Common, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Common.dll, MVID: 0fbb79ae-e358-4591-bc91-e34371a3d05b, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+       Assembly loaded during TaskRun: System.Collections.NonGeneric, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.10\System.Collections.NonGeneric.dll, MVID: 82d50383-fadd-468b-99bb-02b8bfa0ffc4, AssemblyLoadContext: Default)
+       Assembly loaded during TaskRun: NuGet.Commands, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Commands.dll, MVID: e743f127-1013-45a0-a669-058903e72acf, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+       Assembly loaded during TaskRun: NuGet.ProjectModel, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.ProjectModel.dll, MVID: 08d0df58-191b-4580-9b46-c281ab5b9b36, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+       Using "WarnForInvalidProjectsTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "WarnForInvalidProjectsTask"
+       Done executing task "WarnForInvalidProjectsTask".
+     1>Done building target "_FilterRestoreGraphProjectInputItems" in project "POS_System.csproj".
+       Target "_FilterRestoreGraphProjectInputItems" skipped. Previously built successfully.
+     1>Target "_GetAllRestoreProjectPathItems" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreGraph" depends on it):
+       Using "NuGetMessageTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "NuGetMessageTask"
+         Determining projects to restore...
+       Done executing task "NuGetMessageTask".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+     1>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1) is building "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1:3) on node 1 (_GenerateRestoreProjectPathWalk target(s)).
+   1:3>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+       Target "_GenerateRestoreProjectPathItemsAllFrameworks" skipped, due to false condition; ( '$(TargetFrameworks)' != '' ) was evaluated as ( '' != '' ).
+   1:3>Target "_GenerateRestoreProjectPathItemsPerFramework" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreProjectPathItemsCurrentProject" depends on it):
+       Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ConvertToAbsolutePath"
+       Done executing task "ConvertToAbsolutePath".
+   1:3>Done building target "_GenerateRestoreProjectPathItemsPerFramework" in project "POS_System.csproj".
+   1:3>Target "_GenerateRestoreProjectPathItemsCurrentProject" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreProjectPathItems" depends on it):
+   1:3>Done building target "_GenerateRestoreProjectPathItemsCurrentProject" in project "POS_System.csproj".
+   1:3>Target "_GenerateRestoreProjectPathItems" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreProjectPathWalk" depends on it):
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+   1:3>Done building target "_GenerateRestoreProjectPathItems" in project "POS_System.csproj".
+   1:3>Target "_GenerateRestoreProjectPathWalk" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (entry point):
+       Task "MSBuild"
+       Done executing task "MSBuild".
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreUseSkipNonexistentTargets)' != 'true' ) was evaluated as ( 'true' != 'true' ).
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+   1:3>Done building target "_GenerateRestoreProjectPathWalk" in project "POS_System.csproj".
+   1:3>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (_GenerateRestoreProjectPathWalk target(s)).
+     1>Done executing task "MSBuild".
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreUseSkipNonexistentTargets)' != 'true' ) was evaluated as ( 'true' != 'true' ).
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+     1>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1) is building "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1:4) on node 1 (_IsProjectRestoreSupported target(s)).
+   1:4>Target "_IsProjectRestoreSupported" skipped. Previously built successfully.
+   1:4>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (_IsProjectRestoreSupported target(s)).
+     1>Done executing task "MSBuild".
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreUseSkipNonexistentTargets)' != 'true' ) was evaluated as ( 'true' != 'true' ).
+     1>Done building target "_GetAllRestoreProjectPathItems" in project "POS_System.csproj".
+     1>Target "_GenerateRestoreGraph" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "Restore" depends on it):
+       Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Generating dg file
+       Done executing task "Message".
+       Task "Message"
+         c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj
+       Done executing task "Message".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+     1>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1) is building "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1:5) on node 1 (_GenerateRestoreGraphProjectEntry target(s)).
+   1:5>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+   1:5>Target "_GetProjectJsonPath" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GetRestoreProjectStyle" depends on it):
+       Using "GetRestoreProjectJsonPathTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestoreProjectJsonPathTask"
+       Done executing task "GetRestoreProjectJsonPathTask".
+   1:5>Done building target "_GetProjectJsonPath" in project "POS_System.csproj".
+   1:5>Target "CollectPackageReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GetRestoreProjectStyle" depends on it):
+       Using "CheckForDuplicateNuGetItemsTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   1:5>Done building target "CollectPackageReferences" in project "POS_System.csproj".
+   1:5>Target "_GetRestoreProjectStyle" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreSpecs" depends on it):
+       Using "GetRestoreProjectStyleTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestoreProjectStyleTask"
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.GetRestoreProjectStyleTask): NuGet.Configuration, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Configuration.dll, MVID: b0f2e3cc-b478-45a0-a863-e83c6e00406f, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+       Done executing task "GetRestoreProjectStyleTask".
+   1:5>Done building target "_GetRestoreProjectStyle" in project "POS_System.csproj".
+   1:5>Target "_GenerateRestoreSpecs" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreGraphProjectEntry" depends on it):
+       Task "Message"
+         Restore entry point c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj
+       Done executing task "Message".
+   1:5>Done building target "_GenerateRestoreSpecs" in project "POS_System.csproj".
+   1:5>Target "_GetRestoreSettingsOverrides" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GetRestoreSettings" depends on it):
+       Task "MSBuild" skipped, due to false condition; ( '$(RestorePackagesPath)' != '' ) was evaluated as ( '' != '' ).
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreRepositoryPathOverride)' != '' ) was evaluated as ( '' != '' ).
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreSources)' != '' ) was evaluated as ( '' != '' ).
+       Task "MSBuild" skipped, due to false condition; ( '$(RestoreFallbackFolders)' != '' ) was evaluated as ( '' != '' ).
+   1:5>Done building target "_GetRestoreSettingsOverrides" in project "POS_System.csproj".
+       Target "_GetRestoreSettingsCurrentProject" skipped, due to false condition; ( '$(TargetFrameworks)' == '' AND '$(PackageReferenceCompatibleProjectStyle)' == 'true' ) was evaluated as ( '' == '' AND 'False' == 'true' ).
+       Target "_GetRestoreSettingsAllFrameworks" skipped, due to false condition; ( '$(TargetFrameworks)' != '' AND '$(PackageReferenceCompatibleProjectStyle)' == 'true' ) was evaluated as ( '' != '' AND 'False' == 'true' ).
+   1:5>Target "_GetRestoreSettings" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateDotnetCliToolReferenceSpecs" depends on it):
+       Using "GetRestoreSettingsTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestoreSettingsTask"
+       Done executing task "GetRestoreSettingsTask".
+   1:5>Done building target "_GetRestoreSettings" in project "POS_System.csproj".
+   1:5>Target "_GenerateDotnetCliToolReferenceSpecs" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreGraphProjectEntry" depends on it):
+       Using "GetRestoreDotnetCliToolsTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestoreDotnetCliToolsTask"
+       Done executing task "GetRestoreDotnetCliToolsTask".
+   1:5>Done building target "_GenerateDotnetCliToolReferenceSpecs" in project "POS_System.csproj".
+   1:5>Target "_GenerateRestoreGraphProjectEntry" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (entry point):
+   1:5>Done building target "_GenerateRestoreGraphProjectEntry" in project "POS_System.csproj".
+   1:5>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (_GenerateRestoreGraphProjectEntry target(s)).
+     1>Done executing task "MSBuild".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+     1>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1) is building "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (1:6) on node 1 (_GenerateProjectRestoreGraph target(s)).
+   1:6>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+   1:6>Target "_GetRestoreTargetFrameworkOverride" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GetRestoreTargetFrameworksOutput" depends on it):
+       Task "GetGlobalPropertyValueTask" skipped, due to false condition; ( '$(TargetFrameworks)' != '' ) was evaluated as ( '' != '' ).
+   1:6>Done building target "_GetRestoreTargetFrameworkOverride" in project "POS_System.csproj".
+   1:6>Target "_GetRestoreTargetFrameworksOutput" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreProjectSpec" depends on it):
+       Using "GetProjectTargetFrameworksTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetProjectTargetFrameworksTask"
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.GetProjectTargetFrameworksTask): NuGet.Frameworks, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Frameworks.dll, MVID: 6b5909cd-5145-46c4-9595-25461e82c126, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+       Done executing task "GetProjectTargetFrameworksTask".
+   1:6>Done building target "_GetRestoreTargetFrameworksOutput" in project "POS_System.csproj".
+       Target "_GetRestoreSettings" skipped. Previously built successfully.
+   1:6>Target "_GenerateRestoreProjectSpec" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateProjectRestoreGraph" depends on it):
+       Task "ConvertToAbsolutePath" skipped, due to false condition; ( '$(PackageReferenceCompatibleProjectStyle)' == 'true' OR '$(RestoreProjectStyle)' == 'ProjectJson') was evaluated as ( 'False' == 'true' OR 'PackagesConfig' == 'ProjectJson').
+   1:6>Done building target "_GenerateRestoreProjectSpec" in project "POS_System.csproj".
+       Target "_GenerateProjectRestoreGraphAllFrameworks" skipped, due to false condition; ( '$(TargetFrameworks)' != '' ) was evaluated as ( '' != '' ).
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+       Target "CollectPackageReferences" skipped. Previously built successfully.
+   1:6>Target "CollectPackageDownloads" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   1:6>Done building target "CollectPackageDownloads" in project "POS_System.csproj".
+   1:6>Target "CollectFrameworkReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CollectRestoreInputs" depends on it):
+   1:6>Done building target "CollectFrameworkReferences" in project "POS_System.csproj".
+   1:6>Target "CollectCentralPackageVersions" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   1:6>Done building target "CollectCentralPackageVersions" in project "POS_System.csproj".
+   1:6>Target "CollectNuGetAuditSuppressions" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   1:6>Done building target "CollectNuGetAuditSuppressions" in project "POS_System.csproj".
+   1:6>Target "CollectPrunePackageReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   1:6>Done building target "CollectPrunePackageReferences" in project "POS_System.csproj".
+   1:6>Target "_CollectRestoreInputs" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateProjectRestoreGraphPerFramework" depends on it):
+   1:6>Done building target "_CollectRestoreInputs" in project "POS_System.csproj".
+   1:6>Target "_GenerateProjectRestoreGraphPerFramework" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateProjectRestoreGraphCurrentProject" depends on it):
+       Using "GetRestoreProjectReferencesTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestoreProjectReferencesTask"
+       Done executing task "GetRestoreProjectReferencesTask".
+       Task "GetRestorePackageReferencesTask" skipped, due to false condition; ( '$(PackageReferenceCompatibleProjectStyle)' == 'true' ) was evaluated as ( 'False' == 'true' ).
+       Task "GetCentralPackageVersionsTask" skipped, due to false condition; ( '$(PackageReferenceCompatibleProjectStyle)' == 'true' AND '$(_CentralPackageVersionsEnabled)' == 'true' ) was evaluated as ( 'False' == 'true' AND '' == 'true' ).
+       Task "GetRestorePackageDownloadsTask" skipped, due to false condition; ( '$(PackageReferenceCompatibleProjectStyle)' == 'true' ) was evaluated as ( 'False' == 'true' ).
+       Task "GetRestoreFrameworkReferencesTask" skipped, due to false condition; ( '$(PackageReferenceCompatibleProjectStyle)' == 'true' ) was evaluated as ( 'False' == 'true' ).
+       Using "GetRestoreNuGetAuditSuppressionsTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestoreNuGetAuditSuppressionsTask"
+       Done executing task "GetRestoreNuGetAuditSuppressionsTask".
+       Using "GetRestorePrunePackageReferencesTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "GetRestorePrunePackageReferencesTask"
+       Done executing task "GetRestorePrunePackageReferencesTask".
+   1:6>Done building target "_GenerateProjectRestoreGraphPerFramework" in project "POS_System.csproj".
+   1:6>Target "_GenerateProjectRestoreGraphCurrentProject" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateRestoreDependencies" depends on it):
+   1:6>Done building target "_GenerateProjectRestoreGraphCurrentProject" in project "POS_System.csproj".
+   1:6>Target "_GenerateRestoreDependencies" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GenerateProjectRestoreGraph" depends on it):
+   1:6>Done building target "_GenerateRestoreDependencies" in project "POS_System.csproj".
+   1:6>Target "_GenerateProjectRestoreGraph" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (entry point):
+   1:6>Done building target "_GenerateProjectRestoreGraph" in project "POS_System.csproj".
+   1:6>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (_GenerateProjectRestoreGraph target(s)).
+     1>Done executing task "MSBuild".
+     1>Done building target "_GenerateRestoreGraph" in project "POS_System.csproj".
+     1>Target "Restore" in file "C:\Program Files\dotnet\sdk\9.0.306\NuGet.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (entry point):
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Using "RestoreTask" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll".
+       Task "RestoreTask"
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Packaging, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Packaging.dll, MVID: cdc50a13-9777-4bbf-997e-763beae18a61, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.LibraryModel, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.LibraryModel.dll, MVID: e00b38b3-9e45-44a2-8023-8c8ae09208b7, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Versioning, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Versioning.dll, MVID: ecae64d3-0ef8-4164-9110-1e65ba08bca4, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Protocol, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Protocol.dll, MVID: f8777b05-1686-441b-9cec-a9710c5aa900, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Credentials, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.Credentials.dll, MVID: bd6612c0-8432-48ef-9aa9-96a29d2c500a, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+         X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+         X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.DependencyResolver.Core, Version=6.14.0.116, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\9.0.306\NuGet.DependencyResolver.Core.dll, MVID: 6b197cc7-1c4a-4e48-895c-328987fdea28, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\9.0.306\NuGet.Build.Tasks.dll)
+         Nothing to do. None of the projects specified contain packages to restore.
+       Done executing task "RestoreTask".
+     1>Done building target "Restore" in project "POS_System.csproj".
+     1>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (Restore target(s)).
+     0>c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj(3,92): message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\9.0.306\' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props(60,5): message : Property reassignment: $(MSBuildProjectExtensionsPath)="c:\Users\johna\source\repos\POS_System\POS_System\obj\" (previous value: "obj\") at C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props (60,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Current\Microsoft.Common.props(84,119): message : Property 'MSBuildUserExtensionsPath' with value 'C:\Users\johna\AppData\Local\Microsoft\MSBuild' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.CSharp.Core.targets(200,5): message : Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (previous value: "-langversion:7.3") at C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.CSharp.Core.targets (200,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.props(117,5): message : Property reassignment: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (previous value: "Any CPU,x86,x64") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.props (117,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(175,5): message : Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (175,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(185,5): message : Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (185,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(393,5): message : Property reassignment: $(MSBuildCopyMarkerName)="POS_System.csproj.Up2Date" (previous value: "POS_System.csproj") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (393,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(527,5): message : Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "AnyCPU") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (527,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(580,5): message : Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (580,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(649,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (649,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(650,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles};") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (650,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(651,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (651,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(652,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (652,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(653,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (653,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(654,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (654,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(655,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (655,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(656,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (656,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(657,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\Debug\" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (657,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(2619,5): message : Property 'LOCALAPPDATA' with value 'C:\Users\johna\AppData\Local' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3947,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (3947,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3948,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (3948,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message : Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :       _SplitProjectReferencesByFileExistence
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(5159,5): message :     " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (5159,5)
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(6954,5): message : Property 'MSBuildExtensionsPath32' with value 'C:\Program Files\dotnet\sdk\9.0.306' expanded from the environment.
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message : Property reassignment: $(ResolveReferencesDependsOn)="
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ImplicitlyExpandDesignTimeFacades
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     " (previous value: "
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+       Overriding target "GetFrameworkPaths" in project "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets".
+       The target "ResolveNuGetPackageAssets" listed in an AfterTargets attribute at "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets (27,11)" does not exist in the project, and will be ignored.
+   1:7>Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" on node 1 (default targets).
+   1:7>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+       Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
+   1:7>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "BeforeBuild" depends on it):
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('$(_InvalidConfigurationMessageSeverity)' != '') was evaluated as ('' != '').
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=AnyCPU
+       Done executing task "Message".
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(Prefer32Bit)' == 'true' and '$(PreferNativeArm64)' == 'true' ) was evaluated as ( 'true' == 'true' and '' == 'true' ).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(NoWin32Manifest)' == 'true' and '$(PreferNativeArm64)' == 'true' ) was evaluated as ( '' == 'true' and '' == 'true' ).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(PreferNativeArm64)' == 'true' and '$(Platform)' != 'AnyCPU' ) was evaluated as ( '' == 'true' and 'AnyCPU' != 'AnyCPU' ).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ) was evaluated as ( 'c:\Users\johna\source\repos\POS_System\POS_System\obj\' != '' And 'c:\Users\johna\source\repos\POS_System\POS_System\obj\' != 'c:\Users\johna\source\repos\POS_System\POS_System\obj\' ).
+       Task "MSBuildInternalMessage" skipped, due to false condition; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ) was evaluated as ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'c:\Users\johna\source\repos\POS_System\POS_System\obj\' ).
+   1:7>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "POS_System.csproj".
+   1:7>Target "BeforeBuild" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "Build" depends on it):
+   1:7>Done building target "BeforeBuild" in project "POS_System.csproj".
+   1:7>Target "BuildOnlySettings" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "CoreBuild" depends on it):
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(1168,7): message : Property reassignment: $(BuildingProject)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (1168,7) [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+   1:7>Done building target "BuildOnlySettings" in project "POS_System.csproj".
+   1:7>Target "GetFrameworkPaths" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareForBuild" depends on it):
+   1:7>Done building target "GetFrameworkPaths" in project "POS_System.csproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+   1:7>Target "GetReferenceAssemblyPaths" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareForBuild" depends on it):
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(1255,7): message : Property reassignment: $(TargetFrameworkDirectory)="" (previous value: "v4.0.30319") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (1255,7) [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+       Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "GetReferenceAssemblyPaths"
+       Done executing task "GetReferenceAssemblyPaths".
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(1272,7): message : Property reassignment: $(TargetFrameworkDirectory)="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;" (previous value: "v4.0.30319") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (1272,7) [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(1293,7): message : Property reassignment: $(TargetFrameworkDirectory)="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\" (previous value: "v4.0.30319") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (1293,7) [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+   1:7>Done building target "GetReferenceAssemblyPaths" in project "POS_System.csproj".
+       Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+   1:7>Target "PrepareForBuild" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "CoreBuild" depends on it):
+       Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "FindAppConfigFile"
+         Found "App.config".
+       Done executing task "FindAppConfigFile".
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+   1:7>Done building target "PrepareForBuild" in project "POS_System.csproj".
+       Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+   1:7>Target "BeforeResolveReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveReferences" depends on it):
+   1:7>Done building target "BeforeResolveReferences" in project "POS_System.csproj".
+       Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+   1:7>Target "IgnoreJavaScriptOutputAssembly" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "AssignProjectConfiguration" depends on it):
+   1:7>Done building target "IgnoreJavaScriptOutputAssembly" in project "POS_System.csproj".
+       Target "AssignProjectConfiguration" skipped, due to false condition; ('$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!='') was evaluated as ('' != '' or ''!='').
+   1:7>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareProjectReferences" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as (''=='true' and ''!='').
+   1:7>Done building target "_SplitProjectReferencesByFileExistence" in project "POS_System.csproj".
+   1:7>Target "_AddOutputPathToGlobalPropertiesToRemove" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_GetProjectReferenceTargetFrameworkProperties" depends on it):
+   1:7>Done building target "_AddOutputPathToGlobalPropertiesToRemove" in project "POS_System.csproj".
+   1:7>Target "_GetProjectReferenceTargetFrameworkProperties" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareProjectReferences" depends on it):
+       Task "MSBuild"
+       Done executing task "MSBuild".
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.SkipGetTargetFrameworkProperties)' != 'true' and '$(EnableDynamicPlatformResolution)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+       Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+                                                               And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' == 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') was evaluated as ('' != '' and '.NETFramework,Version=v4.7.2' != ''
+                                                               And 'true' == 'true' and '' != 'true').
+       Task "GetReferenceNearestTargetFrameworkTask" skipped, due to false condition; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+                                                               And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true') was evaluated as ('' != '' and '.NETFramework,Version=v4.7.2' != ''
+                                                               And 'true' != 'true' and '' != 'true').
+       Using "SetRidAgnosticValueForProjects" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "SetRidAgnosticValueForProjects"
+       Done executing task "SetRidAgnosticValueForProjects".
+   1:7>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "POS_System.csproj".
+       Target "_GetProjectReferencePlatformProperties" skipped, due to false condition; ('$(EnableDynamicPlatformResolution)' == 'true'
+                            and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true'
+                            and '' != '').
+   1:7>Target "PrepareProjectReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveProjectReferences" depends on it):
+   1:7>Done building target "PrepareProjectReferences" in project "POS_System.csproj".
+   1:7>Target "ResolveProjectReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveReferences" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '17.0' != '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('$(_NonExistentProjectReferenceSeverity)' != '') was evaluated as ('' != '').
+   1:7>Done building target "ResolveProjectReferences" in project "POS_System.csproj".
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "ResolveProjectReferences" skipped. Previously built successfully.
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+   1:7>Target "ResolveSDKReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+   1:7>Done building target "ResolveSDKReferences" in project "POS_System.csproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+   1:7>Target "ExpandSDKReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+   1:7>Done building target "ExpandSDKReferences" in project "POS_System.csproj".
+   1:7>Target "ImplicitlyExpandNETStandardFacades" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetDependsOnNETStandard" skipped, due to false condition; ('$(_RunGetDependsOnNETStandard)' == 'true') was evaluated as ('' == 'true').
+       Task "NETBuildExtensionsError" skipped, due to false condition; ('$(DependsOnNETStandard)' == 'true' AND '$(NETStandardInbox)' != 'true' AND '$(_UsingOldSDK)' == 'true') was evaluated as ('' == 'true' AND 'true' != 'true' AND '' == 'true').
+       Task "AddFacadesToReferences" skipped, due to false condition; ('@(_NETStandardLibraryNETFrameworkLib)' != '') was evaluated as ('' != '').
+   1:7>Done building target "ImplicitlyExpandNETStandardFacades" in project "POS_System.csproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+   1:7>Target "_HandlePackageFileConflicts" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveAssemblyReferences" depends on it):
+       Using "ResolvePackageFileConflicts" task from assembly "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\\tools\net9.0\Microsoft.NET.Build.Extensions.Tasks.dll".
+       Task "ResolvePackageFileConflicts"
+       Done executing task "ResolvePackageFileConflicts".
+   1:7>Done building target "_HandlePackageFileConflicts" in project "POS_System.csproj".
+   1:7>Target "ResolveAssemblyReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveReferences" depends on it):
+       Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ResolveAssemblyReference"
+         TargetFrameworkMoniker:
+             .NETFramework,Version=v4.7.2
+         TargetFrameworkMonikerDisplayName:
+             .NET Framework 4.7.2
+         TargetedRuntimeVersion:
+             v
+         Assemblies:
+             BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL
+                 HintPath = '..\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.dll'
+             Google.Protobuf, Version=3.32.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL
+                 HintPath = '..\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.dll'
+             K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL
+                 HintPath = '..\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll'
+             K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL
+                 HintPath = '..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll'
+             System
+             System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll'
+             System.Configuration
+             System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll'
+             System.DirectoryServices
+             System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll'
+             System.Numerics
+             System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll'
+             System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll'
+             System.Windows.Forms.DataVisualization
+             System.Xml.Linq
+             System.Data.DataSetExtensions
+             Microsoft.CSharp
+             System.Data
+             System.Deployment
+             System.Drawing
+             System.Net.Http
+             System.Windows.Forms
+             System.Xml
+             Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+                 HintPath = '..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll'
+             MySql.Data, Version=9.5.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL
+                 HintPath = '..\packages\MySql.Data.9.5.0\lib\net462\MySql.Data.dll'
+             System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll'
+             System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+                 HintPath = '..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll'
+             ZstdSharp, Version=0.8.6.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL
+                 HintPath = '..\packages\ZstdSharp.Port.0.8.6\lib\net462\ZstdSharp.dll'
+             System.Core
+         AssemblyFiles:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll
+         CandidateAssemblyFiles:
+         TargetFrameworkDirectories:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\
+         NonCultureResourceDirectories:
+             
+         InstalledAssemblyTables:
+         IgnoreInstalledAssemblyTable:
+             False
+         SearchPaths:
+             {CandidateAssemblyFiles}
+             {HintPathFromItem}
+             {TargetFrameworkDirectory}
+             {Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}
+             {AssemblyFolders}
+             {GAC}
+             {RawFileName}
+             bin\Debug\
+         AllowedAssemblyExtensions:
+             .winmd
+             .dll
+             .exe
+         AllowedRelatedFileExtensions:
+             .pdb
+             .xml
+             .pri
+             .dll.config
+             .exe.config
+         AppConfigFile:
+             App.config
+         AutoUnify:
+             True
+         EnableCustomCulture:
+             False
+         CopyLocalDependenciesWhenParentReferenceInGac:
+             True
+         FindDependencies:
+             True
+         TargetProcessorArchitecture:
+             msil
+         StateFile:
+             obj\Debug\POS_System.csproj.AssemblyReference.cache
+         InstalledAssemblySubsetTables:
+         IgnoreInstalledAssemblySubsetTable:
+             False
+         TargetFrameworkSubsets:
+         FullTargetFrameworkSubsetNames:
+             Full
+         ProfileName:
+             
+         FullFrameworkFolders:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\
+         LatestTargetFrameworkDirectories:
+         ProfileTablesLocation:
+         Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll".
+             Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll".
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\BouncyCastle.Cryptography.2.6.2\lib\net461\BouncyCastle.Cryptography.xml".
+         Primary reference "Google.Protobuf, Version=3.32.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.pdb".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.xml".
+         Primary reference "K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.xml".
+         Primary reference "K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.xml".
+         Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.xml".
+         Primary reference "System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Configuration.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Configuration.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.xml".
+         Primary reference "System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.DirectoryServices.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.DirectoryServices.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Unified primary reference "System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+             Using this version instead of original version "4.0.1.1" in "c:\Users\johna\source\repos\POS_System\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.dll" because AutoUnify is 'true'.
+             Using this version instead of original version "4.0.1.1" in "c:\Users\johna\source\repos\POS_System\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll" because AutoUnify is 'true'.
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.Memory.4.5.5\lib\net461\System.Memory.xml".
+         Primary reference "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Numerics.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Numerics.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.xml".
+         Unified primary reference "System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Using this version instead of original version "4.0.4.1" in "c:\Users\johna\source\repos\POS_System\packages\Google.Protobuf.3.32.0\lib\net45\Google.Protobuf.dll" because AutoUnify is 'true'.
+             Using this version instead of original version "4.0.4.1" in "c:\Users\johna\source\repos\POS_System\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll" because AutoUnify is 'true'.
+             Using this version instead of original version "4.0.4.1" in "c:\Users\johna\source\repos\POS_System\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll" because AutoUnify is 'true'.
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.xml".
+         Primary reference "System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.xml".
+         Primary reference "MySql.Data, Version=9.5.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\MySql.Data.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\MySql.Data.xml".
+         Primary reference "System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.xml".
+         Primary reference "System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll".
+             Reference found at search path location "{HintPathFromItem}".
+             Found related file "c:\Users\johna\source\repos\POS_System\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.xml".
+         Primary reference "ZstdSharp, Version=0.8.6.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf".
+             Resolved file path is "c:\Users\johna\source\repos\POS_System\packages\ZstdSharp.Port.0.8.6\lib\net462\ZstdSharp.dll".
+             Reference found at search path location "{HintPathFromItem}".
+         Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Dependency "K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d".
+             Could not resolve this reference. Could not locate the assembly "K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                 For SearchPath "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462" (added by referencing assembly "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\MySql.Data.dll").
+                 Considered "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\K4os.Compression.LZ4.Streams.winmd", but it didn't exist.
+                 Considered "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\K4os.Compression.LZ4.Streams.dll", but it didn't exist.
+                 Considered "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\K4os.Compression.LZ4.Streams.exe", but it didn't exist.
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\K4os.Compression.LZ4.Streams.winmd", but it didn't exist.
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\K4os.Compression.LZ4.Streams.dll", but it didn't exist.
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\K4os.Compression.LZ4.Streams.exe", but it didn't exist.
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\K4os.Compression.LZ4.Streams.winmd", but it didn't exist.
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\K4os.Compression.LZ4.Streams.dll", but it didn't exist.
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\K4os.Compression.LZ4.Streams.exe", but it didn't exist.
+                 For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}".
+                 Considered AssemblyFoldersEx locations.
+                 For SearchPath "{GAC}".
+                 Considered "{GAC}\K4os.Compression.LZ4.Streams.winmd", but it didn't exist.
+                 Considered "{GAC}\K4os.Compression.LZ4.Streams.dll", but it didn't exist.
+                 Considered "{GAC}\K4os.Compression.LZ4.Streams.exe", but it didn't exist.
+                 For SearchPath "bin\Debug\".
+                 Considered "bin\Debug\K4os.Compression.LZ4.Streams.winmd", but it didn't exist.
+                 Considered "bin\Debug\K4os.Compression.LZ4.Streams.dll", but it didn't exist.
+                 Considered "bin\Debug\K4os.Compression.LZ4.Streams.exe", but it didn't exist.
+             Required by "MySql.Data, Version=9.5.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL".
+         Dependency "System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Transactions.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462" (added by referencing assembly "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\MySql.Data.dll").
+                 Considered "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\System.Transactions.winmd", but it didn't exist.
+                 Considered "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\System.Transactions.dll", but it didn't exist.
+                 Considered "c:\Users\johna\source\repos\POS_System\packages\MySql.Data.9.5.0\lib\net462\System.Transactions.exe", but it didn't exist.
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Transactions.winmd", but it didn't exist.
+             Required by "MySql.Data, Version=9.5.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL".
+             This reference is not "CopyLocal" because it's a prerequisite file.
+       Done executing task "ResolveAssemblyReference".
+   1:7>Done building target "ResolveAssemblyReferences" in project "POS_System.csproj".
+       Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and '@(SuggestedBindingRedirects)' != '' and '$(DesignTimeBuild)' != 'true' and '$(BuildingProject)' == 'true') was evaluated as ('true' == 'true' and 'true' == 'true' and '' != '' and '' != 'true' and 'true' == 'true').
+       Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+   1:7>Target "_RemoveZipFileSuggestedRedirect" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "GenerateBindingRedirects" depends on it):
+   1:7>Done building target "_RemoveZipFileSuggestedRedirect" in project "POS_System.csproj".
+   1:7>Target "GenerateBindingRedirectsUpdateAppConfig" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveReferences" depends on it):
+       C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(2579,7): message : Property reassignment: $(AppConfig)="obj\Debug\POS_System.exe.config" (previous value: "App.config") at C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets (2579,7) [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+       Using "Copy" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Copy"
+         Copying file from "c:\Users\johna\source\repos\POS_System\POS_System\App.config" to "c:\Users\johna\source\repos\POS_System\POS_System\obj\Debug\POS_System.exe.config".
+       Done executing task "Copy".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Touching "obj\Debug\POS_System.exe.config".
+       Done executing task "Touch".
+   1:7>Done building target "GenerateBindingRedirectsUpdateAppConfig" in project "POS_System.csproj".
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+   1:7>Target "AfterResolveReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveReferences" depends on it):
+   1:7>Done building target "AfterResolveReferences" in project "POS_System.csproj".
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+   1:7>Target "ImplicitlyExpandDesignTimeFacades" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.NETFramework.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResolveReferences" depends on it):
+   1:7>Done building target "ImplicitlyExpandDesignTimeFacades" in project "POS_System.csproj".
+   1:7>Target "ResolveReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "CoreBuild" depends on it):
+   1:7>Done building target "ResolveReferences" in project "POS_System.csproj".
+   1:7>Target "CopyAdditionalFiles" in file "C:\Program Files\dotnet\sdk\9.0.306\Roslyn\Microsoft.Managed.Core.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "AssignTargetPaths" depends on it):
+   1:7>Done building target "CopyAdditionalFiles" in project "POS_System.csproj".
+   1:7>Target "AssignTargetPaths" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.config'=='.manifest').
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.settings'=='.manifest').
+   1:7>Done building target "AssignTargetPaths" in project "POS_System.csproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+   1:7>Target "SplitResourcesByCulture" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareResourceNames" depends on it):
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "MSBuildInternalMessage" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+         Culture of "" was assigned to file "accounts.resx".
+         Culture of "" was assigned to file "Administrator.resx".
+         Culture of "" was assigned to file "Login.resx".
+         Culture of "" was assigned to file "Low_Stock_Value_Reminder.resx".
+         Culture of "" was assigned to file "POS.resx".
+         Culture of "" was assigned to file "Properties\Resources.resx".
+         Culture of "" was assigned to file "PurchasingSummary.resx".
+         Culture of "" was assigned to file "receipt.resx".
+         Culture of "" was assigned to file "stock.resx".
+         Culture of "" was assigned to file "StockView.resx".
+         Culture of "" was assigned to file "Admin.resx".
+         Culture of "" was assigned to file "Supplier.resx".
+         Culture of "" was assigned to file "Work_Station.resx".
+       Done executing task "AssignCulture".
+   1:7>Done building target "SplitResourcesByCulture" in project "POS_System.csproj".
+   1:7>Target "CreateManifestResourceNames" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.CSharp.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareResourceNames" depends on it):
+       Using "CreateCSharpManifestResourceName" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "CreateCSharpManifestResourceName"
+         Root namespace is 'POS_System'.
+         Resource file 'accounts.resx' depends on 'Accounts.cs'.
+         Resource file 'accounts.resx' gets manifest resource name 'POS_System.Accounts'.
+         Resource file 'Administrator.resx' depends on 'Administrator.cs'.
+         Resource file 'Administrator.resx' gets manifest resource name 'POS_System.Administrator'.
+         Resource file 'Login.resx' depends on 'Login.cs'.
+         Resource file 'Login.resx' gets manifest resource name 'POS_System.Login'.
+         Resource file 'Low_Stock_Value_Reminder.resx' depends on 'Low_Stock_Value_Reminder.cs'.
+         Resource file 'Low_Stock_Value_Reminder.resx' gets manifest resource name 'POS_System.Low_Stock_Value_Reminder'.
+         Resource file 'POS.resx' depends on 'POS.cs'.
+         Resource file 'POS.resx' gets manifest resource name 'POS_System.POS'.
+         Resource file 'Properties\Resources.resx' doesn't depend on any other file.
+         Resource file 'Properties\Resources.resx' gets manifest resource name 'POS_System.Properties.Resources'.
+         Resource file 'PurchasingSummary.resx' depends on 'PurchasingSummary.cs'.
+         Resource file 'PurchasingSummary.resx' gets manifest resource name 'POS_System.PurchasingSummary'.
+         Resource file 'receipt.resx' depends on 'receipt.cs'.
+         Resource file 'receipt.resx' gets manifest resource name 'POS_System.receipt'.
+         Resource file 'stock.resx' depends on 'stock.cs'.
+         Resource file 'stock.resx' gets manifest resource name 'POS_System.stock'.
+         Resource file 'StockView.resx' depends on 'StockView.cs'.
+         Resource file 'StockView.resx' gets manifest resource name 'POS_System.StockView'.
+         Resource file 'Admin.resx' depends on 'Admin.cs'.
+         Resource file 'Admin.resx' gets manifest resource name 'POS_System.void'.
+         Resource file 'Supplier.resx' depends on 'Supplier.cs'.
+         Resource file 'Supplier.resx' gets manifest resource name 'POS_System.Supplier'.
+         Resource file 'Work_Station.resx' depends on 'Work_Station.cs'.
+         Resource file 'Work_Station.resx' gets manifest resource name 'POS_System.Work_Station'.
+       Done executing task "CreateCSharpManifestResourceName".
+       Task "CreateCSharpManifestResourceName" skipped, due to false condition; ('%(EmbeddedResource.ManifestResourceName)' == '' and '%(EmbeddedResource.WithCulture)' == 'true' and '%(EmbeddedResource.Type)' == 'Non-Resx') was evaluated as ('' == '' and 'false' == 'true' and 'Resx' == 'Non-Resx').
+   1:7>Done building target "CreateManifestResourceNames" in project "POS_System.csproj".
+   1:7>Target "CreateCustomManifestResourceNames" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareResourceNames" depends on it):
+   1:7>Done building target "CreateCustomManifestResourceNames" in project "POS_System.csproj".
+   1:7>Target "PrepareResourceNames" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "PrepareResources" depends on it):
+   1:7>Done building target "PrepareResourceNames" in project "POS_System.csproj".
+       Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+       Target "SplitResourcesByCulture" skipped. Previously built successfully.
+   1:7>Target "BeforeResGen" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResGen" depends on it):
+   1:7>Done building target "BeforeResGen" in project "POS_System.csproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+   1:7>Target "FindReferenceAssembliesForReferences" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "CoreResGen" depends on it):
+   1:7>Done building target "FindReferenceAssembliesForReferences" in project "POS_System.csproj".
+   1:7>Target "CoreResGen" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "ResGen" depends on it):
+       Using "GenerateResource" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "GenerateResource"
+         Task assembly was loaded from 'C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Build.dll' while the desired location was 'C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Build.Tasks.Core.dll'.
+         Launching task "GenerateResource" from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" in an external task host with a runtime of "NET" and a process architecture of "x86".
+   1:7>C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB4216: Could not run the "GenerateResource" task because MSBuild could not create or connect to a task host with runtime "NET" and architecture "x86".  Please ensure that (1) the requested runtime and/or architecture are available on the machine, and (2) that the required executable "C:\Program Files\dotnet\sdk\9.0.306\MSBuild.dll" exists and can be run. [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+   1:7>C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3479,7): error MSB4028: The "GenerateResource" task's outputs could not be retrieved from the "FilesWritten" parameter. Object type Microsoft.Build.Tasks.GenerateResource does not match target type Microsoft.Build.BackEnd.TaskHostTask. [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+       Done executing task "GenerateResource" -- FAILED.
+   1:7>Done building target "CoreResGen" in project "POS_System.csproj" -- FAILED.
+   1:7>Target "_CheckForCompileOutputs" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CleanGetCurrentAndPriorFileWrites" depends on it):
+   1:7>Done building target "_CheckForCompileOutputs" in project "POS_System.csproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+   1:7>Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "_CleanRecordFileWrites" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Task "ConvertToAbsolutePath"
+       Done executing task "ConvertToAbsolutePath".
+       Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "FindUnderPath"
+         Comparison path is "c:\Users\johna\source\repos\POS_System\POS_System".
+       Done executing task "FindUnderPath".
+       Task "FindUnderPath"
+         Comparison path is "bin\Debug\".
+       Done executing task "FindUnderPath".
+       Task "FindUnderPath"
+         Comparison path is "obj\Debug\".
+       Done executing task "FindUnderPath".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+   1:7>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "POS_System.csproj".
+   1:7>Target "_CleanRecordFileWrites" in file "C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets" from project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (target "CoreBuild" depends on it):
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+         Skipping write to file "obj\Debug\POS_System.csproj.FileListAbsolute.txt" because content would not change.
+       Done executing task "WriteLinesToFile".
+   1:7>Done building target "_CleanRecordFileWrites" in project "POS_System.csproj".
+   1:7>Done Building Project "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+       "c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj" (default target) (1:7) ->
+       (CoreResGen target) -> 
+         C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3455,5): error MSB4216: Could not run the "GenerateResource" task because MSBuild could not create or connect to a task host with runtime "NET" and architecture "x86".  Please ensure that (1) the requested runtime and/or architecture are available on the machine, and (2) that the required executable "C:\Program Files\dotnet\sdk\9.0.306\MSBuild.dll" exists and can be run. [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+         C:\Program Files\dotnet\sdk\9.0.306\Microsoft.Common.CurrentVersion.targets(3479,7): error MSB4028: The "GenerateResource" task's outputs could not be retrieved from the "FilesWritten" parameter. Object type Microsoft.Build.Tasks.GenerateResource does not match target type Microsoft.Build.BackEnd.TaskHostTask. [c:\Users\johna\source\repos\POS_System\POS_System\POS_System.csproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:04.06

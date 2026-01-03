@@ -230,5 +230,22 @@ namespace POS_System
             Work_Station work_Station = new Work_Station();
             work_Station.Show();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
